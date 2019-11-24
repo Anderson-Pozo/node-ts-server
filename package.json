@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install tsc nodemon",
+    "postinstall": "npm install tsc",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
-    "nodemon": "nodemon dist/"
+    "start": "node dist/index.js"
   },
   "author": "",
   "license": "ISC",
