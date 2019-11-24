@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "npm install tsc",
-    "postinstall": "npm run build-ts",
+    "postinstall": "tsc -w",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
     "start": "node dist/index.js"
