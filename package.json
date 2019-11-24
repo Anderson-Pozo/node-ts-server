@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install tsc",
+    "postinstall": "npm install tsc nodemon",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
     "start": "nodemon dist/"
