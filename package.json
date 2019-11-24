@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npm install tsc",
-    "build": "tsc -w",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
     "start": "nodemon dist/"
   },
   "author": "",
