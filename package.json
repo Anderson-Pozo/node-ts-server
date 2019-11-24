@@ -7,7 +7,7 @@
     "postinstall": "npm install tsc nodemon",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",
-    "start": "nodemon dist/"
+    "nodemon": "nodemon dist/"
   },
   "author": "",
   "license": "ISC",
