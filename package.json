@@ -4,12 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-ts": "tsc",
-    "postinstall": "npm run build-ts",
-    "start": "npm run serve",
-    "serve": "node dist/",
-    "watch-node": "nodemon dist/",
-    "watch-ts": "tsc -w"
+    "start": "tsc -w",
+    "nodemos": "nodemon dist/"
   },
   "author": "",
   "license": "ISC",
