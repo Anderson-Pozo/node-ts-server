@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install tsc",
-    "start":"tsc -w",
+    "start":"npm install tsc",
+    "build": "tsc -w",
     "servidor": "node dist/index.js"
   },
   "author": "",
