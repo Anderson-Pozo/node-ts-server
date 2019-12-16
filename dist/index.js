@@ -22,7 +22,8 @@ server.app.use(cors_1.default({ origin: true, credentials: true }));
 server.app.use('/user', usuario_1.default);
 server.app.use('/posts', post_1.default);
 //Conectar DB
-let uri = 'mongodb+srv://qrscanner:kIV5CknMU72FPsti@cluster0-gblzn.mongodb.net/scanner?retryWrites=true&w=majority';
+// let uri = 'mongodb+srv://qrscanner:kIV5CknMU72FPsti@cluster0-gblzn.mongodb.net/scanner?retryWrites=true&w=majority' 
+let uri = 'mongodb+srv://Paola:FSWZtqjWfodowhiw@cluster0-owcnv.mongodb.net/fotosgram?retryWrites=true&w=majority';
 mongoose_1.default.connect(uri, { useNewUrlParser: true, useCreateIndex: true }, (err) => {
     if (err)
         throw err;
