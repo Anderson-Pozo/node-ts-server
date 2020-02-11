@@ -27,8 +27,8 @@ server.app.use('/user',userRoutes);
 server.app.use('/posts',postRoutes);
 
 //Conectar DB
-// let uri = 'mongodb+srv://qrscanner:kIV5CknMU72FPsti@cluster0-gblzn.mongodb.net/scanner?retryWrites=true&w=majority' 
-let uri = 'mongodb+srv://Paola:FSWZtqjWfodowhiw@cluster0-owcnv.mongodb.net/fotosgram?retryWrites=true&w=majority'
+let uri = 'mongodb+srv://qrscanner:kIV5CknMU72FPsti@cluster0-gblzn.mongodb.net/scanner?retryWrites=true&w=majority' 
+
 
 mongoose.connect(uri,
             { useNewUrlParser: true, useCreateIndex:true },(err)=>{
